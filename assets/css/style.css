@@ -1,0 +1,65 @@
+/* Basic page style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    overflow: hidden;
+    background: black;
+    color: #a020f0; /* default text purple */
+}
+
+/* Matrix canvas */
+canvas#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* Center content for About page */
+.page-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+}
+
+/* Main titles (h1) green */
+.page-content h1 {
+    color: #00ff00;
+}
+
+/* Links (like GitHub icon) */
+.page-content a {
+    color: #a020f0;
+    text-decoration: none;
+}
+
+.page-content a img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Footer style */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #00ff00;
+    z-index: 5;
+    font-size: 0.8rem;
+}
+
+a img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
