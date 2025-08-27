@@ -4,9 +4,9 @@ title: About Me
 permalink: /
 ---
 
-# About Me
+# Aleksa Ćetković
 
-Hi, I am Aleksa Ćetković, a software engineering student based in Novi Sad.  
+Software engineering student based in Novi Sad.  
 
-[cetkovicaleksa@hotmail.com](mailto:Aleksa%20%C4%86etkovi%C4%87%20%3Ccetkovicaleksa@hotmail.com%3E) 
+[![cetkovicaleksa@hotmail.com](https://www.svgrepo.com/download/427533/email-envelope-mail.svg)](mailto:Aleksa%20%C4%86etkovi%C4%87%20%3Ccetkovicaleksa@hotmail.com%3E) 
 [![GitHub]( {{ '/assets/img/GitHub_Invertocat_Light.svg' | relative_url }} )](https://github.com/CetkovicAleksa)  

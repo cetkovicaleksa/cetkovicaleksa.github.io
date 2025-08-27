@@ -63,3 +63,10 @@ a img {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+.page-content footer {
+    /* Dim background */
+    background-color: rgba(0, 0, 0, 0.7); /* black with 70% opacity */
+    padding: 30px;
+    border-radius: 10px;
+}
