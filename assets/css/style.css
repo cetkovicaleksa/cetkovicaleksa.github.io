@@ -6,6 +6,7 @@ body {
     overflow: hidden;
     background: black;
     color: #a020f0; /* default text purple */
+    text-shadow: 0 0 4px #a020f0, 0 0 9px #a020f0;
 }
 
 /* Matrix canvas */
@@ -31,11 +32,12 @@ canvas#matrix {
 /* Main titles (h1) green */
 .page-content h1 {
     color: #00ff00;
+    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
 }
 
 /* Links (like GitHub icon) */
-.page-content a {
-    color: #a020f0;
+a {
+    color: #bf22f3;
     text-decoration: none;
 }
 
