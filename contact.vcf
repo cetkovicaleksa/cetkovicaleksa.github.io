@@ -3,9 +3,9 @@ VERSION:4.0
 REV:2026-09-13
 KIND:individual
 
-FN:Алекса Ћетковић
-N:Ћетковић;Алекса
-NICKNAME:Аки
+FN;CHARSET=UTF-8:Алекса Ћетковић
+N;CHARSET=UTF-8:Ћетковић;Алекса
+NICKNAME;CHARSET=UTF-8:Аки
 GENDER:M
 
 BDAY:2003-02-14
@@ -19,8 +19,8 @@ URL:https://www.cetkovic.rs
 LANG:sr
 LANG:en
 TZ:Europe/Belgrade
-ADR;TYPE=home;PREF=1:;;;Нови Сад;Војводина;21000;Србија
-ADR;TYPE=home:;;;Бијељина;Бијељина;76300;Босна и Херцеговина
+ADR;CHARSET=UTF-8;TYPE=home;PREF=1:;;;Нови Сад;Војводина;21000;Србија
+ADR;CHARSET=UTF-8;TYPE=home:;;;Бијељина;Бијељина;76300;Босна и Херцеговина
 
 KEY;MEDIATYPE=application/pgp-keys:https://www.cetkovic.rs/pgpkey.asc
 
