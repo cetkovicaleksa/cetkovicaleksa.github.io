@@ -1,22 +1,18 @@
 BEGIN:VCARD
-VERSION:4.0
-REV:2026-09-15
-KIND:individual
-FN:Алекса Ћетковић
-N:Ћетковић;Алекса;;;
-NICKNAME:Аки
-GENDER:M
-BDAY:2003-02-14
-TEL;TYPE=cell;PREF=1:tel:+38766166045
-TEL;TYPE=cell:tel:+381637463447
+VERSION:3.0
+REV:20260915T191200Z
+FN;CHARSET=UTF-8:Алекса Ћетковић
+N;CHARSET=UTF-8:Ћетковић;Алекса;;;
+NICKNAME;CHARSET=UTF-8:Аки
+BDAY:20030214
+TEL;TYPE=CELL;PREF=1:+38766166045
+TEL;TYPE=CELL:+381637463447
 EMAIL;PREF=1:cetkovicaleksa@hotmail.com
-EMAIL;TYPE=work:cetkovic.sv77.2022@uns.ac.rs
+EMAIL;TYPE=WORK:cetkovic.sv77.2022@uns.ac.rs
 URL:https://www.cetkovic.rs
-LANG:sr
-LANG:en
 TZ:Europe/Belgrade
-ADR;TYPE=home;PREF=1:;;;Нови Сад;Војводина;21000;Србија
-ADR;TYPE=home:;;;Бијељина;Бијељина;76300;Босна и Херцеговина
-KEY;MEDIATYPE=application/pgp-keys:https://www.cetkovic.rs/pgpkey.asc
+ADR;TYPE=HOME;CHARSET=UTF-8;PREF=1:;;;Нови Сад;Војводина;21000;Србија
+ADR;TYPE=HOME;CHARSET=UTF-8:;;;Бијељина;Бијељина;76300;Босна и Херцеговина
 SOURCE:https://www.cetkovic.rs/contact.vcf
+KEY;TYPE=PGP:https://www.cetkovic.rs/pgpkey.asc
 END:VCARD
