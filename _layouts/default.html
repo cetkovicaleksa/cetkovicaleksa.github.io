@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            {% if page.title and page.title != site.title %}
-                {{ page.title }} | {{ site.title }}
-            {% else %}
-                {{ site.title }}
-            {% endif %}
-        </title>
 
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {%- if page.title and page.title != site.title -%}
+        {{ page.title }} | {{ site.title }}
+        {%- else -%}
+        {{ site.title }}
+        {%- endif -%}
+    </title>
 
-        <link rel="icon" href="data:image/svg+xml,
+    <link rel="icon" href="data:image/svg+xml,
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
                 <text y='0.9em' font-size='90'>🐇</text>
-            </svg>"
-        >
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+            </svg>">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-        {%- seo %}
-    </head>
-    <body>
-        <canvas id="matrix"></canvas>
+    {% seo %}
+</head>
 
-        <main class="page-content">
-            {{ content }}
-        </main>
+<body>
+    <canvas id="matrix"></canvas>
 
-        {% include footer.html %}
+    <main class="page-content">
+        {{ content }}
+    </main>
 
-        <script src="{{ '/assets/js/matrix.js' | relative_url }}"></script>
-    </body>
+    <footer>
+        &copy; {{ site.author.name | title }} {{ 'now' | date: '%Y' }}.
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+        Hosted with &hearts; by <a href="https://pages.github.com/">GitHub pages</a>.
+    </footer>
+
+    <script src="{{ '/assets/js/matrix.js' | relative_url }}"></script>
+</body>
+
 </html>
