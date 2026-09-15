@@ -1,8 +1,27 @@
-title: "Aleksa Ćetković"
-description: "My portfolio page"
-name: Aleksa
-surname: Ćetković
-theme: minima
+title: Алекса Ћетковић
+description: My portfolio page
+author:
+  name: Алекса Ћетковић
+  email: cetkovicaleksa@hotmail.com
 
-url: https://cetkovicaleksa.github.io
+url: https://www.cetkovic.rs
 baseurl: ""
+repository: cetkovicaleksa/cetkovicaleksa.github.io
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  # - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  # - sitemap.xml.html
+
+social:
+  name: Алекса Ћетковић
+  links:
+    - https://github.com/cetkovicaleksa
+    - https://www.linkedin.com/in/cetkovicaleksa

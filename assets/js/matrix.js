@@ -6,10 +6,12 @@ canvas.height = window.innerHeight;
 
 const letters = 'アァイィウヴエェオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヲンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@$%&*';
 const fontSize = 11;
-const columns = canvas.width / fontSize;
+const columnWidth = fontSize * 1.15;
+const columns = canvas.width / columnWidth;
 const drops = [];
 
-for(let x = 0; x < columns; x++) drops[x] = 1;
+for(let x = 0; x < columns; x++)
+  drops[x] = Math.random() * -canvas.height / fontSize;
 
 function draw() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
@@ -20,9 +22,15 @@ function draw() {
 
   for(let i = 0; i < drops.length; i++) {
     const text = letters.charAt(Math.floor(Math.random() * letters.length));
-    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    ctx.fillText(text, i * columnWidth, drops[i] * fontSize);
 
-    if(drops[i]*fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    if(
+      drops[i] * fontSize > canvas.height &&
+      Math.random() > 0.975
+    ) {
+      drops[i] = Math.random() * -20;
+    }
+
     drops[i]++;
   }
 }

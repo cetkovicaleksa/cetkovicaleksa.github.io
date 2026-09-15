@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.url }}{{ site.baseurl }}</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}{{ site.baseurl }}/google64b7e7fdcaf95aa5.html</loc>
+        <lastmod>2026-08-02T14:44:07+02:00</lastmod>
+    </url>
+    {% for repo in site.github.public_repositories -%}
+    {%- if repo.name != site.github.project_title and repo.fork == false and repo.has_pages %}
+    <url>
+        <loc>{{ site.url | append: "/" | append: repo.name | xml_escape }}</loc>
+    </url>
+    {%- endif %}
+    {%- endfor %}
+</urlset>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            {% if page.title %}
+            {% if page.title and page.title != site.title %}
                 {{ page.title }} | {{ site.title }}
             {% else %}
                 {{ site.title }}
@@ -17,6 +17,8 @@
             </svg>"
         >
         <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+        {%- seo %}
     </head>
     <body>
         <canvas id="matrix"></canvas>
