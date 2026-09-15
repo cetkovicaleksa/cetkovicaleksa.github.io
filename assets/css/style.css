@@ -6,7 +6,7 @@ body {
     overflow: hidden;
     background: black;
     color: #a020f0; /* default text purple */
-    text-shadow: 0 0 4px #a020f0, 0 0 9px #a020f0;
+    text-shadow: 0 0 4px currentColor, 0 0 9px currentColor;
 }
 
 /* Matrix canvas */
@@ -32,7 +32,7 @@ canvas#matrix {
 /* Main titles (h1) green */
 .page-content h1 {
     color: #00ff00;
-    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+    text-shadow: 0 0 8px currentColor, 0 0 16px currentColor;
 }
 
 /* Links (like GitHub icon) */
@@ -71,4 +71,15 @@ a img {
     background-color: rgba(0, 0, 0, 0.7); /* black with 70% opacity */
     padding: 30px;
     border-radius: 10px;
+}
+
+a.contact-icon {
+  display: inline-flex;
+  width: 1.5em;
+  height: 1.5em;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: whitesmoke;
+  text-shadow: 0 0 1px currentColor, 0 0 3px currentColor;
 }

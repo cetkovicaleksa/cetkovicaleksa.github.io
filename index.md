@@ -1,12 +1,28 @@
 ---
 layout: default
-title: Алекса Ћетковић
 permalink: /
 ---
 
 # Алекса Ћетковић
 
-Software engineering student based in Novi Sad.
+Software engineering student based in Novi Sad
 
-[![cetkovicaleksa@hotmail.com]( {{ '/assets/img/envelope.svg' | relative_url }} )](mailto:Aleksa%20%C4%86etkovi%C4%87%20%3Ccetkovicaleksa@hotmail.com%3E) 
-[![github.com/CetkovicAleksa]( {{ '/assets/img/GitHub_Invertocat_Light.svg' | relative_url }} )](https://github.com/CetkovicAleksa)  
+<nav class="contact-links" aria-label="Contact and social links">
+  <a class="contact-icon"
+     href="mailto:Алекса Ћетковић <cetkovicaleksa@hotmail.com>"
+     aria-label="Email">
+    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+  </a>
+
+  <a class="contact-icon"
+     href="https://github.com/cetkovicaleksa"
+     aria-label="GitHub">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+  </a>
+
+  <a class="contact-icon"
+     href="https://linkedin.com/in/cetkovicaleksa"
+     aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+  </a>
+</nav>
