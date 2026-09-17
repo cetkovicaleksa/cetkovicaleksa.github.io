@@ -24,4 +24,10 @@ Software engineering student based in Novi Sad
      aria-label="LinkedIn">
     <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
   </a>
+  
+  <a class="contact-icon"
+     href="https://keys.openpgp.org/search?q=cetkovicaleksa%40hotmail.com"
+     aria-label="OpenPGP Key">
+     <i class="fa-solid fa-key" aria-hidden="true"></i>
+  </a>
 </nav>
