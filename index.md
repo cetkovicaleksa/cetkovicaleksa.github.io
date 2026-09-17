@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /
 ---
 
@@ -23,6 +22,6 @@ Software engineering student based in Novi Sad
   <a class="contact-icon"
      href="https://linkedin.com/in/cetkovicaleksa"
      aria-label="LinkedIn">
-    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
   </a>
 </nav>
