@@ -1,12 +1,14 @@
-title: Алекса Ћетковић
+title: Aleksa Ćetković
 description: Software engineering student based in Novi Sad
 author:
-  name: Алекса Ћетковић
+  name: Aleksa Ćetković
   email: cetkovicaleksa@hotmail.com
 
 url: https://www.cetkovic.rs
 baseurl: ""
 repository: cetkovicaleksa/cetkovicaleksa.github.io
+
+since: 2025
 
 plugins:
   - jekyll-seo-tag
@@ -18,10 +20,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  # - sitemap.xml.html
+  - sitemap.xml.html
 
 social:
-  name: Алекса Ћетковић
+  name: Aleksa Ćetković
   links:
     - https://github.com/cetkovicaleksa
     - https://www.linkedin.com/in/cetkovicaleksa

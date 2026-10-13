@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,9 @@
         {%- endif -%}
     </title>
 
-    <link rel="icon" href="data:image/svg+xml,
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
-                <text y='0.9em' font-size='90'>🐇</text>
-            </svg>">
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+    <link rel="icon" href="assets/img/roni-192.png" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 
@@ -29,9 +28,16 @@
     </main>
 
     <footer>
-        &copy; {{ site.author.name | title }} {{ 'now' | date: '%Y' }}.
-        Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
-        Hosted with &hearts;&#xFE0E; by <a href="https://pages.github.com/">GitHub pages</a>.
+        {% assign year = 'now' | date: '%Y' %}
+        <p>
+            <small>
+                &copy; <time datetime="{{ site.since }}">{{ site.since }}</time>{% if year != site.since %} &ndash;
+                <time datetime="{{ year }}">{{ year }}</time>{% endif %} {{ site.author.name | title }}. All rights reserved.
+                Powered by <a href="https://jekyllrb.com/" translate="no" tabindex="-1">Jekyll</a>.
+                Hosted by <a href="https://pages.github.com/" translate="no" tabindex="-1">GitHub
+                    pages</a>.
+            </small>
+        </p>
     </footer>
 
     <script src="{{ '/assets/js/matrix.js' | relative_url }}"></script>
