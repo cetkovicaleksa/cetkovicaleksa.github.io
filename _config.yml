@@ -20,7 +20,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - sitemap.xml.html
 
 social:
   name: Aleksa Ćetković
