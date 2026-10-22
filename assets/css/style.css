@@ -123,7 +123,7 @@ a.contact-icon {
     text-decoration: none;
 }
 
-.ftn:lang(sr-Latn)::after,
+/* .ftn:lang(sr-Latn)::after,
 .ftn:lang(bs)::after,
 .ftn:lang(hr)::after {
     content: "-u";
@@ -136,4 +136,4 @@ a.contact-icon {
 
 .ftn:lang(sr-Latn)::after {
     content: "-u";
-}
+} */
