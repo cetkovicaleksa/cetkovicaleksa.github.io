@@ -1,0 +1,14 @@
+{
+  "workbench.editorAssociations": {
+    "*.html": "default",
+    "*.md": "default",
+  },
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/jsonresume/jsonresume.org/refs/tags/@jsonresume/schema@1.3.1/packages/schema/schema.json": [
+      "resume.yaml",
+      "resume.*.yaml",
+      "resume.yml",
+      "resume.*.yml",
+    ]
+  }
+}

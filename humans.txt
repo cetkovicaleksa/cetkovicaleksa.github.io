@@ -1,0 +1,16 @@
+/* HUMAN */
+
+Name: Алекса Ћетковић / Aleksa Ćetković
+Location: Novi Sad, Serbia
+Website: {{ site.url }}
+
+/* SITE */
+
+Built with: Jekyll
+Hosted by: GitHub Pages
+Made for: Sharing what I make and learn.
+Status: A work in progress, just like its author.
+
+/* THANKS */
+
+To whoever is reading this. I didn't think anyone would get this far.

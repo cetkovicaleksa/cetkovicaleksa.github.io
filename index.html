@@ -1,14 +1,19 @@
 ---
+layout: default
 permalink: /
 ---
 
-# Aleksa Ćetković
-
-Software engineering student based in Novi Sad
+<hgroup>
+  <h1>{{ site.author.name }}</h1>
+  <p>
+    Software engineering student at
+    <abbr class="ftn" title="Faculty of Technical Sciences, University of Novi Sad">FTN</abbr>
+  </p>
+</hgroup>
 
 <address>
   <a class="contact-icon"
-     href="mailto:{{ site.author.name }} <{{ site.author.email }}>"
+     href="mailto:{{ site.author.name | url_encode }}%20%3C{{ site.author.email }}%3E"
      rel="me"
      aria-label="Email">
     <i class="fa-solid fa-envelope" aria-hidden="true"></i>
@@ -29,8 +34,7 @@ Software engineering student based in Novi Sad
   </a>
   
   <a class="contact-icon"
-     href="https://keys.openpgp.org/search?q=cetkovicaleksa%40hotmail.com"
-     rel="me"
+     href="https://keys.openpgp.org/search?q={{ site.author.email | url_encode }}"
      aria-label="OpenPGP Key">
      <i class="fa-solid fa-key" aria-hidden="true"></i>
   </a>

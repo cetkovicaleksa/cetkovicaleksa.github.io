@@ -1,0 +1,7 @@
+# Yes even this site has a security.txt.
+# Found a vulnerability? Tell me. Or don't. I'm a comment, not a cop.
+
+Contact: {{ site.url }}#contact
+Expires: 9999-12-31T23:59:59Z
+
+# I will revisit this closer to the deadline.

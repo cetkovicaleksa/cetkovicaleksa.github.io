@@ -1,5 +1,5 @@
 title: Aleksa Ćetković
-description: Software engineering student based in Novi Sad
+description: Software engineering student at FTN
 author:
   name: Aleksa Ćetković
   email: cetkovicaleksa@hotmail.com
@@ -10,16 +10,23 @@ repository: cetkovicaleksa/cetkovicaleksa.github.io
 
 since: 2025
 
+lang: en-GB
+locale: en_GB
+
 plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   # - jekyll-sitemap
+
+include:
+  - .well-known
 
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
+  - .well-known/security-unsigned.txt
 
 social:
   name: Aleksa Ćetković

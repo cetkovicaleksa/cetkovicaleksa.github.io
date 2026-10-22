@@ -18,7 +18,7 @@ function draw() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = "#0F0";
-  ctx.font = fontSize + "px monospace";
+  ctx.font = `${fontSize}px "Roboto Mono", monospace`;
 
   for(let i = 0; i < drops.length; i++) {
     const text = letters.charAt(Math.floor(Math.random() * letters.length));

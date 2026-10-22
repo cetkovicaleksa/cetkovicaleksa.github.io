@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Yes even this site has a security.txt.
+# Found a vulnerability? Tell me. Or don't. I'm a comment, not a cop.
+
+Contact: {{ site.url }}#contact
+Expires: 9999-12-31T23:59:59Z
+
+# I will revisit this closer to the deadline.
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQStmGAUPFx75Mdq8wJMiSlwmdCIOwUCatoJ9gAKCRBMiSlwmdCI
+O8clAP4oLpvseGRVhRew2IQ3xHme1v0VR7zPlXcwHac9RVZU5wD+JfUQa5nq2mOX
+VRz877ViYLZdukWYrg2gyn4sRxTX6QM=
+=voBp
+-----END PGP SIGNATURE-----

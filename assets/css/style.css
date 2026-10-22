@@ -1,8 +1,26 @@
+/* roboto-mono-regular - cyrillic_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-mono/roboto-mono-v31-cyrillic_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-mono-700 - cyrillic_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-mono/roboto-mono-v31-cyrillic_latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* Basic page style */
 body {
     margin: 0;
     padding: 0;
-    font-family: "Courier New", monospace;
+    font-family: 'Roboto Mono', monospace;
     overflow: hidden;
     background: black;
     color: #a020f0; /* default text purple */
@@ -99,4 +117,23 @@ a.contact-icon {
     94% {
         opacity: 0.95;
     }
+}
+
+.ftn {
+    text-decoration: none;
+}
+
+.ftn:lang(sr-Latn)::after,
+.ftn:lang(bs)::after,
+.ftn:lang(hr)::after {
+    content: "-u";
+}
+
+.ftn:lang(sr)::after,
+.ftn:lang(bs-Cyrl)::after {
+    content: "-у";
+}
+
+.ftn:lang(sr-Latn)::after {
+    content: "-u";
 }
